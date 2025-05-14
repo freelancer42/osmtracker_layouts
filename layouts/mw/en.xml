@@ -18,6 +18,10 @@
       <button type="page" label="Amenity" icon="mw_icons/amenity.png" targetlayout="amenity" />
     </row>
 
+    <row>
+      <button type="tag" label=".MW Undo last" icon="mw_icons/minus.png" />
+    </row>
+
   </layout>
 
   <layout name="highway">
