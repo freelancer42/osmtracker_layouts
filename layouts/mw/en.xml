@@ -3,6 +3,11 @@
   <layout name="root">
 
     <row>
+      <button type="tag" label=".MW Undo" icon="mw_icons/undo.png" />
+      <button type="tag" label=".MW Redo" icon="mw_icons/redo.png" />
+    </row>
+
+    <row>
       <button type="picture" icon="mw_icons/camera_32x32.png" />
       <button type="textnote" icon="mw_icons/text_32x32.png" />
     </row>
@@ -16,10 +21,6 @@
     <row>
       <button type="page" label="Highway" icon="mw_icons/way.png" targetlayout="highway" />
       <button type="page" label="Amenity" icon="mw_icons/amenity.png" targetlayout="amenity" />
-    </row>
-
-    <row>
-      <button type="tag" label=".MW Undo last" icon="mw_icons/minus.png" />
     </row>
 
   </layout>
