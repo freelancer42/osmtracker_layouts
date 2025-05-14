@@ -3,19 +3,19 @@
   <layout name="root">
 
     <row>
-      <button type="picture" icon="camera_32x32.png" />
-      <button type="textnote" icon="text_32x32.png" />
+      <button type="picture" icon="mw_icons/camera_32x32.png" />
+      <button type="textnote" icon="mw_icons/text_32x32.png" />
     </row>
 
     <row>
-      <button type="tag" label=".MW Start" icon="star.png" />
-      <button type="tag" label=".MW Segment" icon="plus.png" />
-      <button type="tag" label=".MW Discard" icon="x.png" />
+      <button type="tag" label=".MW Start" icon="mw_icons/star.png" />
+      <button type="tag" label=".MW Segment" icon="mw_icons/plus.png" />
+      <button type="tag" label=".MW Discard" icon="mw_icons/x.png" />
     </row>
 
     <row>
-      <button type="page" label="Highway" icon="way.png" targetlayout="highway" />
-      <button type="page" label="Amenity" icon="amenity.png" targetlayout="amenity" />
+      <button type="page" label="Highway" icon="mw_icons/way.png" targetlayout="highway" />
+      <button type="page" label="Amenity" icon="mw_icons/amenity.png" targetlayout="amenity" />
     </row>
 
   </layout>
@@ -23,27 +23,27 @@
   <layout name="highway">
 
     <row>
-      <button type="tag" label=".H Path" icon="footway.png" />
+      <button type="tag" label=".H Path" icon="mw_icons/footway.png" />
       <button type="tag" label=".S Ground" />
-      <button type="tag" label=".T Grade 2" icon="track_grade2.png" />
+      <button type="tag" label=".T Grade 2" icon="mw_icons/track_grade2.png" />
     </row>
 
     <row>
-      <button type="tag" label=".H Track" icon="track_grade1.png" />
+      <button type="tag" label=".H Track" icon="mw_icons/track_grade1.png" />
       <button type="tag" label=".S Compacted" />
-      <button type="tag" label=".T Grade 3" icon="track_grade3.png" />
+      <button type="tag" label=".T Grade 3" icon="mw_icons/track_grade3.png" />
     </row>
   
     <row>
-      <button type="tag" label=".H Service" icon="way_service.png" />
+      <button type="tag" label=".H Service" icon="mw_icons/way_service.png" />
       <button type="tag" label=".S Asphalt" />
-      <button type="tag" label=".T Grade 4" icon="track_grade4.png" />
+      <button type="tag" label=".T Grade 4" icon="mw_icons/track_grade4.png" />
     </row>
   
     <row>
-      <button type="tag" label=".H Road" icon="way.png" />
+      <button type="tag" label=".H Road" icon="mw_icons/way.png" />
       <button type="tag" label=".S Gravel" />
-      <button type="tag" label=".T Grade 5" icon="track_grade5.png" />
+      <button type="tag" label=".T Grade 5" icon="mw_icons/track_grade5.png" />
     </row>
   
   </layout>
@@ -51,20 +51,20 @@
   <layout name="amenity">
     
     <row>
-      <button type="tag" label=".AD Left" icon="left.png" />
-      <button type="tag" label=".AD Front" icon="up.png" />
-      <button type="tag" label=".AD Right" icon="right.png" />
+      <button type="tag" label=".AD Left" icon="mw_icons/left.png" />
+      <button type="tag" label=".AD Front" icon="mw_icons/up.png" />
+      <button type="tag" label=".AD Right" icon="mw_icons/right.png" />
     </row>
 
     <row>
-      <button type="tag" label=".A Bench" icon="bench.png" />
-      <button type="tag" label=".A Picnic table" icon="picnic.png" />
-      <button type="tag" label=".A BBQ" icon="bbq.png" />
+      <button type="tag" label=".A Bench" icon="mw_icons/bench.png" />
+      <button type="tag" label=".A Picnic table" icon="mw_icons/picnic.png" />
+      <button type="tag" label=".A BBQ" icon="mw_icons/bbq.png" />
     </row>
     
     <row>
-      <button type="tag" label=".A Waste basket" icon="waste_basket.png" />
-      <button type="tag" label=".A Shelter" icon="shelter.png" />
+      <button type="tag" label=".A Waste basket" icon="mw_icons/waste_basket.png" />
+      <button type="tag" label=".A Shelter" icon="mw_icons/shelter.png" />
     </row>
   
   </layout>
