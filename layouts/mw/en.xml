@@ -1,0 +1,71 @@
+<layouts>
+
+  <layout name="root">
+
+    <row>
+      <button type="picture" icon="camera_32x32" />
+      <button type="textnote" icon="text_32x32" />
+    </row>
+
+    <row>
+      <button type="tag" label="MW Start" />
+      <button type="tag" label="MW Segment" />
+      <button type="tag" label="MW Discard" />
+    </row>
+
+    <row>
+      <button type="page" label="Highway" targetlayout="highway" />
+      <button type="page" label="Amenity" targetlayout="amenity" />
+    </row>
+
+  </layout>
+
+  <layout name="highway">
+
+    <row>
+      <button type="tag" label="H Path" />
+      <button type="tag" label="S Ground" />
+      <button type="tag" label="T Grade 2" />
+    </row>
+
+    <row>
+      <button type="tag" label="H Track" />
+      <button type="tag" label="S Compacted" />
+      <button type="tag" label="T Grade 3" />
+    </row>
+  
+    <row>
+      <button type="tag" label="H Service" />
+      <button type="tag" label="S Asphalt" />
+      <button type="tag" label="T Grade 4" />
+    </row>
+  
+    <row>
+      <button type="tag" label="H Road" />
+      <button type="tag" label="S Gravel" />
+      <button type="tag" label="T Grade 5" />
+    </row>
+  
+  </layout>
+
+  <layout name="amenity">
+    
+    <row>
+      <button type="tag" label="AD Left" />
+      <button type="tag" label="AD Front" />
+      <button type="tag" label="AD Right" />
+    </row>
+
+    <row>
+      <button type="tag" label="A Bench" />
+      <button type="tag" label="A Picnic table" />
+      <button type="tag" label="A BBQ" />
+    </row>
+    
+    <row>
+      <button type="tag" label="A Waste basket" />
+    </row>
+  
+  </layout>
+
+</layouts>  
